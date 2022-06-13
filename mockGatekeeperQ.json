@@ -1,0 +1,14 @@
+[{
+  "email": "harry@potter.com",
+  "market": "en",
+  "eb_tier": "GOLD"
+},
+{
+  "email": "emma@watson.com",
+  "market": "en",
+  "eb_tier": "SILVER"
+},
+{
+  "email": "bruce@batman.com",
+  "market": "sv"
+}]

@@ -1,0 +1,44 @@
+trigger:
+- develop
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - stage: Build
+    displayName: 'Build and Push turi-sf-gatekeeper'
+    jobs:
+    - job: 'BuildAndPush'
+      steps:
+      - task: NodeTool@0
+        displayName: 'Install nodejs'
+        inputs:
+          versionSpec: '12.x'
+      - task: Bash@3
+        displayName: npm install
+        inputs:
+          targetType: 'inline'
+          script: 'npm install'
+      - task: Docker@2
+        displayName: 'Docker Push'
+        inputs:
+          containerRegistry: 'AIUATACRServiceConn'
+          repository: 'turi-sf-gatekeeper'
+          command: 'buildAndPush'
+          Dockerfile: '**/Dockerfile'
+          tags: $(Build.BuildId)
+      - task: CopyFiles@2
+        displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+        inputs:
+          SourceFolder: 'manifest/'
+          Contents: '**'
+          TargetFolder: '$(Build.ArtifactStagingDirectory)'
+          CleanTargetFolder: true
+          OverWrite: true
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish files to Azure Pipelines'
+        inputs:
+          PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+          ArtifactName: 'drop'
+          publishLocation: Container

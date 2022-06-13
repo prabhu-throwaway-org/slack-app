@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment 
+metadata: 
+  name: turi-sf-gatekeeper
+spec: 
+  selector: 
+    matchLabels: 
+      app: turi-sf-gatekeeper 
+  replicas: 1
+  template:
+    metadata: 
+      labels: 
+        app: turi-sf-gatekeeper
+    spec: 
+      containers: 
+      - name: turi-sf-gatekeeper 
+        image: cweutaiacr.azurecr.io/turi-sf-gatekeeper:#{Build.BuildId}#
+        ports: 
+        - containerPort: 3003
+        envFrom:      
+          - configMapRef:
+              name: turi-sf-gatekeeper-env
+--- 
+kind: Service 
+apiVersion: v1
+metadata: 
+  name: turi-sf-gatekeeper
+spec: 
+  selector: 
+    app: turi-sf-gatekeeper 
+  ports: 
+  - protocol: TCP 
+    port: 80
+    targetPort: 3003
+  type: ClusterIP 

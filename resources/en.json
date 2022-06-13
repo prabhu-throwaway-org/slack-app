@@ -1,0 +1,15 @@
+{
+    "greeting" : "Hi",
+    "agent_available_subject" : "Chat with SAS Customer Service - Agent Available",
+    "mail_receive_reason" : "You are receiving this email because you registered on SAS Turi to be notified when a Customer Service agent is available.",
+    "agent_available_main_message" : "The queue is reduced now and an agent will soon be able to chat with you. Please click on the button below to chat with a SAS Customer Service agent.",
+    "technical_issues_subject" : "Chat with SAS Customer Service - Technical Problem",
+    "technical_issues_main_message" : "However due to an unexpected technical problem, I am not able to connect you with a Customer Service agent. Kindly contact us by phone for support.",
+    "chat_closed_subject" : "Chat with SAS Customer Service - Chat Closed",
+    "chat_closed_main_message" : "However, the live chat closed for today before we could connect you with a Customer Service agent.",
+    "contact_us_openingHours_message" : "Please visit {contact_url} for more information on SAS Customer Service opening hours.",
+    "link_active_message" : "This link will only be active for 10 minutes from the delivery of this email.",
+    "do_not_reply_message" : "[THIS IS AN AUTOMATED REPONSE SENT TO YOU. PLEASE DO NOT REPLY TO THIS EMAIL AS IT WILL NOT BE RECEIVED]",
+    "not_intended_message" : "If you did not register with us, please disregard this email." ,
+    "button_text" : "CHAT WITH SAS CUSTOMER SERVICE"
+}

@@ -1,0 +1,15 @@
+{
+    "greeting" : "Hej",
+    "agent_available_subject" : "Chatta med SAS Kundservice - Agent tillgänglig",
+    "mail_receive_reason" : "Du får det här e-postmeddelandet för att du registrerade dig på SAS Turi för att bli meddelad när en kundtjänstagent är tillgänglig.",
+    "agent_available_main_message" : "Kön är minskad nu och en agent kommer snart att kunna chatta med dig. Klicka på knappen nedan för att chatta med en SAS kundserviceagent.",
+    "technical_issues_subject" : "Chatta med SAS Kundservice - Tekniskt problem",
+    "technical_issues_main_message" : "På grund av ett oväntat tekniskt problem kan jag dock inte koppla dig till en kundservicerepresentant. Kontakta oss gärna per telefon för support.",
+    "chat_closed_subject" : "Chatta med SAS Kundservice - Chatten stängd",
+    "chat_closed_main_message" : "Livechatten har dock stängt för idag innan vi kunde koppla dig till en kundserviceagent.",
+    "contact_us_openingHours_message" : "Besök {contact_url} för mer information om SAS kundservice öppettider.",
+    "link_active_message" : "Den här länken kommer endast att vara aktiv i 10 minuter från leveransen av detta e-postmeddelande.",
+    "do_not_reply_message" : "[DETTA ÄR ETT AUTOMATISKT EMAIL-SVAR SKICKAT TILL DIG. SVAR PÅ DETTA EMAIL KOMMER INTE ATT MOTTAGAS]",
+    "not_intended_message" : "Om du inte registrerade dig hos oss, vänligen bortse från detta e-postmeddelande." ,
+    "button_text" : "CHATTA MED SAS KUNDSERVICE"
+}

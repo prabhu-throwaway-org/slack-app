@@ -1,0 +1,15 @@
+{
+    "greeting" : "Hei",
+    "agent_available_subject" : "Chat med en tiggjengelig SAS Kundeservice agent",
+    "mail_receive_reason" : "Du får denne e-posten fordi du registrerte deg på SAS Turi for å motta beskjed når en chat agent blir tilgjengelig",
+    "agent_available_main_message" : "Køen er mindre og en agent er snart tilgjengelig for å chatte med deg. Klikk på knappen under for å chatte med kundeservice agent.",
+    "technical_issues_subject" : "Chatte med SAS Kundeservice - teknisk problem",
+    "technical_issues_main_message" : "På grunn av et teknisk problem kan jeg ikke koble deg til en chat agent. Kontakt oss gjerne på telefon for hjelp",
+    "chat_closed_subject" : "Chatt med SAS Kundeservice. Chatten er stengt",
+    "chat_closed_main_message" : "Chatten har stengt for dagen, vi kan ikke koble deg til en chat agent",
+    "contact_us_openingHours_message" : "Besøk {contact} for informasjon om åpningstider for SAS Kundeervice.",
+    "link_active_message" : "Denne linken er aktiv i 10 min fra du mottok e-posten.",
+    "do_not_reply_message" : "[DETTE ER ET AUTOMATISK E-POST SVAR. SVAR PÅ DENNE E-POSTEN VIL IKKE BLI MOTTATT]",
+    "not_intended_message" : "Hvis du ikke registrerte deg hos oss, vennligst se bort fra denne e-posten." ,
+    "button_text" : "CHATT MED SAS KUNDESERVICE"
+}

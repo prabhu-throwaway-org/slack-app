@@ -1,0 +1,15 @@
+{
+    "greeting" : "Hej",
+    "agent_available_subject" : "Chat med SAS kundeservice- der er en ledig medarbejder",
+    "mail_receive_reason" : "Du  modtager denne e-mail, da du har registreret dig på SAS Turi, for at få besked, når en ledig medarbejder er tilgængelig, i vores kundeservice.",
+    "agent_available_main_message" : "Køen er nu reduceret og en medarbejder vil snart være klar, til at hjælpe dig. For at chatte med SAS kundeservice, venligst klik på knappen herunder.",
+    "technical_issues_subject" : "Chat med SAS kundeservice- Teknisk problem",
+    "technical_issues_main_message" : "Grundet tekniske problemer, kan jeg ikke stille dig om til en ledig medarbejder, i vores kundesevice. Venligst kontakt os per telefon for support.",
+    "chat_closed_subject" : "Chat med SAS kundeservice-Chat er lukket.",
+    "chat_closed_main_message" : "Chatten er lukket for i dag, det er desværre ikke længere muligt, at stille dig igennem til en ledig medarbejder, i vores kundeservice.",
+    "contact_us_openingHours_message" : "For yderligere information om SAS kundeservice åbningstider, venligst se på {contact_url}",
+    "link_active_message" : "Dette link vil kun være aktivt i 10 minutter, efter modtagelsen af denne e-mail.",
+    "do_not_reply_message" : "[DENNE E-MAIL ER ET AUTOSVAR. SVAR PÅ DENNE, VIL IKKE BLIVE MODTAGET]",
+    "not_intended_message" : "Har du ikke har registreret dig hos os, kan du se bort fra denne e-mail." ,
+    "button_text" : "CHAT MED SAS KUNDESERVICE"
+}
